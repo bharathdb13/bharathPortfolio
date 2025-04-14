@@ -523,3 +523,84 @@ img{
         }
     }
 }
+.quality {
+    margin-right: 20px; /* adjust spacing as needed */
+  }
+  
+  
+  .home__img {
+    max-width: 250px;
+    margin-top: 1rem;
+  }
+  
+  .home__blob-img {
+    object-fit: cover;
+  }
+  .about__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .about__img img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about__subtitle {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .about__text {
+    font-size: 1rem;
+    color: #444;
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
+  
+  .about__traits {
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+  
+  .trait {
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0.3rem 0.7rem;
+    margin: 0.2rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .highlight {
+    color: #00aaff;
+  }
+//   Resume
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2c3e50; /* Dark blue/black */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 2px solid #2c3e50;
+    text-align: center;
+  }
+
+ .section{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  
+  
