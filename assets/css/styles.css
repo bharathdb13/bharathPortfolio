@@ -875,3 +875,10 @@ body.dark-mode .work__item {
   object-fit: cover;
   object-position: center top;
 }
+
+.show-menu {
+  right: 0;
+}
+.nav__link{
+  color: green;
+}

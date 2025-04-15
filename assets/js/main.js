@@ -11,5 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
   
 //  dark mode toggle
 
+const [open, setOpen] = useState(false);
+
+const toggleMenu = () => {
+  setOpen(!open);
+};
 
   
